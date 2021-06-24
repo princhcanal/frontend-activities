@@ -89,7 +89,6 @@ li {
 }
 
 .exercise {
-  /* height: 100vh; */
   width: 100%;
   overflow: hidden;
 }
@@ -107,13 +106,8 @@ li {
   color: #e5e5e5;
 }
 
-.text > h1 {
-  padding-top: 1rem;
-}
-
-#exercise-1 {
+.exercise-1 {
   margin-top: var(--nav-height);
-  background-color: #264653;
 }
 
 .content {
@@ -123,16 +117,4 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#exercise-2 {
-  background-color: #2a9d8f;
-}
-
-#exercise-3 {
-  background-color: #e9c46a;
-}
-
-#exercise-4 {
-  background-color: #f4a261;
 }
