@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" type="image/png" href="img/water-emoji.png" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script
+			src="https://kit.fontawesome.com/1b7c7045b9.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Assignment 1</title>
+	</head>
+	<body>
+		<nav id="navbar">
+			<div class="logo">
+				<a href="#"><h1>Activity 1</h1></a>
+			</div>
+			<div class="nav">
+				<ul class="nav-links">
+					<li>
+						<a href="/" class="nav-link">Home</a>
+					</li>
+					<li class="active">
+						<a href="#exercise-1" class="nav-link">Exercise 1</a>
+					</li>
+					<li>
+						<a href="#exercise-2" class="nav-link">Exercise 2</a>
+					</li>
+					<li>
+						<a href="#exercise-3" class="nav-link">Exercise 3</a>
+					</li>
+					<li>
+						<a href="#exercise-4" class="nav-link">Exercise 4</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="exercise" id="exercise-1">
+			<div class="text">
+				<h1>Exercise 1: Centering Stuff</h1>
+				<p>
+					One of the first things beginner front-end web developers
+					struggle with, myself included, is just centering things on
+					the page. In this exercise, create a div with a height of
+					20rem and width of 80%. Choose a background color for your
+					div. Inside the div, create an h1. Center the div itself and
+					also center the h1 inside the div. Both the div and the h1
+					should be cented horizontally and vertically. The black
+					background represents your whole page and the white
+					rectangle represents your div.
+				</p>
+			</div>
+			<div class="content" id="content-1">
+				<div class="div">
+					<h1>Princh Harold Cañal</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="exercise" id="exercise-2">
+			<div class="text">
+				<h1>Exercise 2: Forms</h1>
+				<p>
+					Forms are essential in web development. It's how we get data
+					from the user and send it to the backend of our website
+					which will then process that data. In this exercise, create
+					another div. This time, create a form inside like the one
+					below.
+				</p>
+			</div>
+			<div class="content" id="content-2">
+				<form>
+					<div class="form-group">
+						<h1>Create an account!</h1>
+					</div>
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" placeholder="Name" />
+					</div>
+					<div class="form-group">
+						<label for="name">Email</label>
+						<input type="email" placeholder="Email" />
+					</div>
+					<div class="form-group">
+						<label for="name">Password</label>
+						<input type="password" placeholder="Password" />
+					</div>
+					<div class="form-group">
+						<button>Sign up!</button>
+						<p>
+							This button doesn't actually do anything since we
+							don't have a backend!
+						</p>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="exercise" id="exercise-3">
+			<div class="text">
+				<h1>Exercise 3: Cards</h1>
+				<p>
+					Cards are a good way to show what features a website offers.
+					In this exercise, you are to create three card elements each
+					with an icon (the one I use is from
+					<a href="https://fontawesome.com/" target="_blank"
+						>font awesome</a
+					>), an h3, and a p tag.
+				</p>
+			</div>
+			<div class="content" id="content-3">
+				<h1>The Foundations of Web Development</h1>
+				<div class="cards">
+					<div class="card">
+						<i class="fab fa-html5"></i>
+						<h3>HTML5</h3>
+						<p>
+							HTML stands for Hyper Text Markup language and
+							describes what elements are on the page. You can say
+							that HTML is the
+							<em class="italic">noun</em> of a website.
+						</p>
+					</div>
+					<div class="card">
+						<i class="fab fa-css3-alt"></i>
+						<h3>CSS3</h3>
+						<p>
+							CSS stands for Cascading Style Sheets and describes
+							the style of the elements on a website. You can say
+							that CSS is the
+							<em class="italic">adjective</em> of a website.
+						</p>
+					</div>
+					<div class="card">
+						<i class="fab fa-js"></i>
+						<h3>JavaScript</h3>
+						<p>
+							JavaScript is a programming language and it helps
+							makes a website more dynamic. It describes the
+							behavior of the elements on a website. You can say
+							that JavaScript is the
+							<em class="italic">verb</em> of a website.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="exercise" id="exercise-4">
+			<div class="text">
+				<h1>Exercise 4: Background Images</h1>
+				<p>
+					An img tag already exists in HTML, so why use
+					background-image? Well, as you probably already know, the
+					img tag is a self closing tag. This means that we cannot put
+					content inside of the image. This is one of the benefits of
+					using the background property on a div in CSS. In this
+					exercise, you will create a div with text inside of your
+					choosing then use CSS to set the background image of that
+					div. The image I used can be found
+					<a
+						href="https://source.unsplash.com/fi5FPDZ6tns/4500x3000"
+						target="_blank"
+						>here</a
+					>.
+				</p>
+			</div>
+			<div class="content" id="content-4">
+				<div class="bg-image">
+					<h1 class="bg-header">Brad</h1>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
