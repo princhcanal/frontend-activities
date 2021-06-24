@@ -106,6 +106,10 @@ li {
   color: #e5e5e5;
 }
 
+.exercise-title {
+  margin-top: 5rem;
+}
+
 .exercise-1 {
   margin-top: var(--nav-height);
 }

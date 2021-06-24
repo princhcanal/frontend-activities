@@ -1,17 +1,24 @@
+:root {
+  --exercise-1-background-color: #264653;
+  --exercise-2-background-color: #2a9d8f;
+  --exercise-3-background-color: #e9c46a;
+  --exercise-4-background-color: #f4a261;
+}
+
 #activity1-exercise-1 {
-  background-color: #264653;
+  background-color: var(--exercise-1-background-color);
 }
 
 #activity1-exercise-2 {
-  background-color: #2a9d8f;
+  background-color: var(--exercise-2-background-color);
 }
 
 #activity1-exercise-3 {
-  background-color: #e9c46a;
+  background-color: var(--exercise-3-background-color);
 }
 
 #activity1-exercise-4 {
-  background-color: #f4a261;
+  background-color: var(--exercise-4-background-color);
 }
 
 #activity1-content-1 {
